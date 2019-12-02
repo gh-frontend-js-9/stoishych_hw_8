@@ -1,0 +1,78 @@
+.tamagotchi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.tamagotchi section {
+    width: 29%;
+}
+
+.tamagotchi-status {
+    display: flex;
+    align-items: center;
+}
+
+.tamagotchi-status__text {
+    margin-right: 50px;
+}
+
+.tamagotchi-status__img {
+    height: 250px;
+    width: auto;
+}
+
+.tamagotchi-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 385px;
+
+}
+
+.tamagotchi-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 150px;
+    
+}
+
+.tamagotchi__button {
+    margin-bottom: 30px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.tamagotchi-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 55%;
+    margin-top: 50px; 
+}
+
+.tamagotchi-timer {
+    display: none;
+    margin-bottom: 30px;
+}
+.tamagotchi-restart {
+    margin-right: 60px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    transition: 0.4s;
+}
+
+.tamagotchi-restart:hover {
+    transform: scale(1.1);
+    background-color: bisque;
+}
+button:focus {
+    outline: none;
+}
