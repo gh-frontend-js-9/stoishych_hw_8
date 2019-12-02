@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="tamagotchi">
+        <section class="choose-level">
+            <h1>Choose Tamagotchi's level</h1>
+            <button id="easy">Easy level</button>
+            <button id="hard">Hard level</button>
+        </section>
+        <section>
+            <div class="tamagotchi-status">
+                <h1 class="tamagotchi-status__text">Status</h1>
+                <img src="img/cats-first-stage.png" alt="cat" class="tamagotchi-status__img" id = "cat">
+            </div>
+            <div class="tamagotchi-info">
+                <div class="meter-bars">
+                    <h2>Food</h2>
+                    <meter min="0" max="100" low="25" high="75" optimum="50" value="50" id="Food" class="meters"></meter>
+                    <h2>Clean</h2>
+                    <meter min="0" max="100" low="25" high="75" optimum="50" value="50" id="Clean" class="meters"></meter>
+                    <h2>Happiness</h2>
+                    <meter min="0" max="100" low="25" high="75" optimum="50" value="50" id="Happiness" class="meters"></meter>
+                </div>
+                <div class="tamagotchi-buttons">
+                    <button class="tamagotchi__button" id="eat">eat</button>
+                    <button class="tamagotchi__button" id="wash">wash</button>
+                    <button class="tamagotchi__button" id="run">run</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="tamagotchi-footer">
+                <div class="tamagotchi-timer" id = "timer">
+                    Timer: 
+                </div>
+                <button class="tamagotchi-restart" id = "restart">
+                    Restart
+                </button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
